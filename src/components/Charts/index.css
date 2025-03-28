@@ -1,0 +1,105 @@
+.grafico {
+    background-color: #111633;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgb(106, 113, 153) 0px 0px 2px;
+
+    width: 50%;
+}
+
+.estab {
+    color: #38A489;
+    background-color: #D4F8D4;
+    width: fit-content;
+    padding: 6px 15px;
+    margin: 20px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.logsButton {
+  color: #efefef;
+  background-color: #786CD2;
+
+  margin: 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  transition: 100ms ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+    
+.logsButton:hover {
+    transform: translateY(-4px);
+}
+
+.charts {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+@media(max-width:768px) {
+    .charts {
+        width: 96%;
+        flex-direction: column;
+    
+    }
+
+    .grafico {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+}
+
+
+  .dropdown {
+    position: absolute;
+    margin-top: 10px; 
+    background: #111633;
+    padding: 2px;
+    border-radius: 12px;
+    width: 120px;
+    color: #ffffff;
+    z-index: 999;
+    box-shadow: rgb(106, 113, 153) 0px 0px 2px;
+  }
+  
+  .dropdown div {
+    padding: 6px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 150ms ease-in-out;
+    border-radius: 8px;
+    
+  }
+  .dropdown div:hover {
+    background: #7860a48d;
+  }
+  
+  .estab {
+    margin-right: auto;
+  }
+
+  .intervaloChart button{
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #4d448d;
+    border-radius: 10px;
+    color: #7569c2dd;
+    padding: 8px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .intervaloChart button:hover {
+    border-color: #786CD2;
+    color: #786CD2;
+    background-color: #786cd222;
+    box-shadow: #786CD2 0px 0px 2px;
+  }

@@ -1,0 +1,470 @@
+[
+  {
+    "chipid": "94C2540EE93C",
+    "nome_dispositivo": "Sensor Armazenamento",
+    "local": "Depósito Central",
+    "status": "ativo",
+    "bateria": 85,
+    "rssi": -48,
+    "referencia_temp": "20-25°C",
+    "referencia_umid": "40-60%",
+    "leituras": [
+      {
+        "id": 1,
+        "hora": "08:00",
+        "temperatura": 24.2,
+        "umidade": 50,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 2,
+        "hora": "08:10",
+        "temperatura": 24.0,
+        "umidade": 51,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 3,
+        "hora": "08:20",
+        "temperatura": 24.3,
+        "umidade": 52,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 4,
+        "hora": "08:30",
+        "temperatura": 24.5,
+        "umidade": 53,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 5,
+        "hora": "08:40",
+        "temperatura": 24.1,
+        "umidade": 54,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 6,
+        "hora": "08:50",
+        "temperatura": 24.6,
+        "umidade": 55,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 7,
+        "hora": "09:00",
+        "temperatura": 24.8,
+        "umidade": 56,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 8,
+        "hora": "09:10",
+        "temperatura": 25.0,
+        "umidade": 57,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 9,
+        "hora": "09:20",
+        "temperatura": 24.7,
+        "umidade": 58,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 10,
+        "hora": "09:30",
+        "temperatura": 24.3,
+        "umidade": 56,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 11,
+        "hora": "09:40",
+        "temperatura": 24.6,
+        "umidade": 54,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 12,
+        "hora": "09:50",
+        "temperatura": 24.4,
+        "umidade": 53,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 13,
+        "hora": "10:00",
+        "temperatura": 24.9,
+        "umidade": 55,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 14,
+        "hora": "10:10",
+        "temperatura": 25.0,
+        "umidade": 56,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 15,
+        "hora": "10:20",
+        "temperatura": 24.5,
+        "umidade": 58,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 16,
+        "hora": "10:30",
+        "temperatura": 24.3,
+        "umidade": 58,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 17,
+        "hora": "10:40",
+        "temperatura": 24.4,
+        "umidade": 57,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      },
+      {
+        "id": 18,
+        "hora": "10:50",
+        "temperatura": 24.1,
+        "umidade": 56,
+        "ssid": "Wifi_Armazen",
+        "ip": "192.168.0.10"
+      }
+    ]
+  },
+  {
+    "chipid": "76A2537FFE2A",
+    "nome_dispositivo": "Sensor Frigorífico",
+    "local": "Câmara Fria",
+    "status": "ativo",
+    "bateria": 70,
+    "rssi": -65,
+    "referencia_temp": "-10-0°C",
+    "referencia_umid": "70-90%",
+    "leituras": [
+      {
+        "id": 1,
+        "hora": "08:00",
+        "temperatura": -8.0,
+        "umidade": 82,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 2,
+        "hora": "08:10",
+        "temperatura": -8.2,
+        "umidade": 80,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 3,
+        "hora": "08:20",
+        "temperatura": -7.9,
+        "umidade": 83,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 4,
+        "hora": "08:30",
+        "temperatura": -8.5,
+        "umidade": 81,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 5,
+        "hora": "08:40",
+        "temperatura": -7.8,
+        "umidade": 80,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 6,
+        "hora": "08:50",
+        "temperatura": -8.1,
+        "umidade": 78,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 7,
+        "hora": "09:00",
+        "temperatura": -8.6,
+        "umidade": 80,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 8,
+        "hora": "09:10",
+        "temperatura": -8.2,
+        "umidade": 81,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 9,
+        "hora": "09:20",
+        "temperatura": -8.3,
+        "umidade": 82,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 10,
+        "hora": "09:30",
+        "temperatura": -8.1,
+        "umidade": 82,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 11,
+        "hora": "09:40",
+        "temperatura": -8.4,
+        "umidade": 83,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 12,
+        "hora": "09:50",
+        "temperatura": -8.0,
+        "umidade": 81,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 13,
+        "hora": "10:00",
+        "temperatura": -7.9,
+        "umidade": 79,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 14,
+        "hora": "10:10",
+        "temperatura": -8.3,
+        "umidade": 80,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 15,
+        "hora": "10:20",
+        "temperatura": -8.1,
+        "umidade": 82,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 16,
+        "hora": "10:30",
+        "temperatura": -8.7,
+        "umidade": 84,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 17,
+        "hora": "10:40",
+        "temperatura": -8.5,
+        "umidade": 86,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      },
+      {
+        "id": 18,
+        "hora": "10:50",
+        "temperatura": -7.8,
+        "umidade": 85,
+        "ssid": "Wifi_Frio",
+        "ip": "192.168.0.11"
+      }
+    ]
+  },
+  {
+    "chipid": "FF9CB14DEC04",
+    "nome_dispositivo": "Sensor Servidores",
+    "local": "Sala 504",
+    "status": "ativo",
+    "bateria": 95,
+    "rssi": -73,
+    "referencia_temp": "17-20°C",
+    "referencia_umid": "35-45%",
+    "leituras": [
+      {
+        "id": 1,
+        "hora": "08:00",
+        "temperatura": 19.2,
+        "umidade": 37,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 2,
+        "hora": "08:10",
+        "temperatura": 19.5,
+        "umidade": 36,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 3,
+        "hora": "08:20",
+        "temperatura": 19.1,
+        "umidade": 38,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 4,
+        "hora": "08:30",
+        "temperatura": 18.8,
+        "umidade": 37,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 5,
+        "hora": "08:40",
+        "temperatura": 19.0,
+        "umidade": 39,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 6,
+        "hora": "08:50",
+        "temperatura": 19.3,
+        "umidade": 40,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 7,
+        "hora": "09:00",
+        "temperatura": 18.7,
+        "umidade": 41,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 8,
+        "hora": "09:10",
+        "temperatura": 19.0,
+        "umidade": 42,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 9,
+        "hora": "09:20",
+        "temperatura": 18.9,
+        "umidade": 41,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 10,
+        "hora": "09:30",
+        "temperatura": 19.2,
+        "umidade": 39,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 11,
+        "hora": "09:40",
+        "temperatura": 19.5,
+        "umidade": 38,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 12,
+        "hora": "09:50",
+        "temperatura": 18.8,
+        "umidade": 37,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 13,
+        "hora": "10:00",
+        "temperatura": 19.1,
+        "umidade": 37,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 14,
+        "hora": "10:10",
+        "temperatura": 19.2,
+        "umidade": 38,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 15,
+        "hora": "10:20",
+        "temperatura": 19.4,
+        "umidade": 39,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 16,
+        "hora": "10:30",
+        "temperatura": 18.9,
+        "umidade": 40,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 17,
+        "hora": "10:40",
+        "temperatura": 18.8,
+        "umidade": 41,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      },
+      {
+        "id": 18,
+        "hora": "10:50",
+        "temperatura": 19.0,
+        "umidade": 42,
+        "ssid": "Wifi_Servidor",
+        "ip": "192.168.0.12"
+      }
+    ]
+  }
+]

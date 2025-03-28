@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "chipid": "94C2540EE93C",
+      "nome_dispositivo": "Sensor Armazenamento",
+      "local": "Depósito Central",
+      "media_atual": 24.6,
+      "bateria": 85,
+      "status": "ativo",
+      "rssi": -48,
+      "referencia_temp": "20-25°C"
+    },
+    {
+      "id": 2,
+      "chipid": "76A2537FFE2A",
+      "nome_dispositivo": "Sensor Frigorífico",
+      "local": "Câmara Fria",
+      "media_atual": -8.0,
+      "bateria": 70,
+      "status": "pendente",
+      "rssi": -65,
+      "referencia_temp": "-10-0°C"
+    },
+    {
+      "id": 3,
+      "chipid": "FF9CB14DEC04",
+      "nome_dispositivo": "Sensor Servidores",
+      "local": "Sala 504",
+      "media_atual": 18.2,
+      "bateria": 95,
+      "status": "ativo",
+      "rssi": -73,
+      "referencia_temp": "17-20°C"
+    }
+  ]
+  

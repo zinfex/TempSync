@@ -1,0 +1,101 @@
+.logs-section {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logs-header h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.logs-filter {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-btn {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.filter-btn.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.logs-list {
+  padding: 20px 25px;
+}
+
+.logs-list hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 10px 0;
+}
+
+.log-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.log-time {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  width: 50px;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.status-dot.bg {
+  background-color: #4caf50;
+}
+
+.status-dot.br {
+  background-color: #f44336;
+}
+
+.status-dot.by {
+  background-color: #ffeb3b;
+}
+
+.log-content {
+  flex: 1;
+}
+
+.log-title {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.log-details {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
