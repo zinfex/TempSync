@@ -21,8 +21,6 @@ Este projeto consiste em um sistema de monitoramento de temperatura (e umidade) 
 5. [Carregando os Dados](#carregando-os-dados)  
 6. [Principais Componentes](#principais-componentes)  
 7. [Personalizações Possíveis](#personalizações-possíveis)  
-8. [Contribuição](#contribuição)  
-9. [Licença](#licença)  
 
 ---
 

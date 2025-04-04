@@ -1,11 +1,11 @@
+import React from "react";
 import { FaTemperatureLow } from "react-icons/fa";
 import { LuDroplet } from "react-icons/lu";
 import { RiAlarmWarningLine } from "react-icons/ri";
 import { IoTimer } from "react-icons/io5";
 import { TbTemperatureCelsius } from "react-icons/tb";
 import { AiOutlinePercentage } from "react-icons/ai";
-import './index.css'
-
+import "./index.css";
 
 export default function Boxes({ sensorDados }) {
     return ( 
