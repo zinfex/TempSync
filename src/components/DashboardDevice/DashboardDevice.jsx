@@ -274,7 +274,7 @@ export default function DashboardDevice({ dadosDevice, dadosConfig }) {
         <div className="temperature-table">
           <h1 className="temperature-main">
             <p className="temperature-label">Temperatura atual</p>
-            <RiTempColdLine size={40} color="#FFFFFF" />
+            <RiTempColdLine size={40}/>
             {ultimaTrans ? ultimaTrans.temperatura : "--"}
             <TbTemperatureCelsius />
             <p className="temperature-recommendation">
@@ -325,7 +325,7 @@ export default function DashboardDevice({ dadosDevice, dadosConfig }) {
         <div className="temperature-table">
           <h1 className="temperature-main">
             <p className="temperature-label">Umidade atual</p>
-            <LuDroplet size={43} color="#FFFFFF" />{" "}
+            <LuDroplet size={43} />{" "}
             {ultimaTrans ? ultimaTrans.umidade : "--"}
             <AiOutlinePercentage size={30} />
             <p className="temperature-recommendation">

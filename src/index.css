@@ -1,7 +1,10 @@
 :root {
-  background-color: #070C27;
+  background-color: #fafafa;
   font-family: 'Poppins';
   padding: 30px;
+
+  /* background: rgb(36,64,47);
+background: linear-gradient(126deg, rgba(36,64,47,1) 0%, rgba(0,0,0,1) 100%); */
 }
 
 * {

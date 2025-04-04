@@ -13,7 +13,11 @@
     color: rgba(255, 255, 255, 0.832);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     z-index: 1000;
-    background-color: #6132E8;
+
+    border-bottom: 0;
+    border-right: 0;
+
+    background-color: #1483cd;
 }
 
 .nav-button {

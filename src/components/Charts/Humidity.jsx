@@ -25,8 +25,7 @@ export default function Humidity({ dadosDevice }) {
         toolbar: false,
         height: 250,
         type: "line", // ou "area"
-        background: "#111633",
-        foreColor: "#FFFFFF",
+        foreColor: "#38373B",
       },
       dataLabels: {
         enabled: false,

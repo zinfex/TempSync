@@ -1,9 +1,10 @@
 .grafico {
-    background-color: #111633;
+    background-color: transparent;
+    color: black;
+    border: 3px solid black;
     padding: 10px;
     border-radius: 15px;
     box-shadow: rgb(106, 113, 153) 0px 0px 2px;
-
     width: 50%;
 }
 
@@ -13,7 +14,7 @@
     width: fit-content;
     padding: 6px 15px;
     margin: 20px;
-    border-radius: 12px;
+    border-radius: 20px;
     font-weight: 600;
 }
 

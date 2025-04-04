@@ -14,7 +14,7 @@ export default function Boxes({ sensorDados }) {
             <div className="boxgrid"> 
                 <div className="box">
                     <div className="info">
-                        <FaTemperatureLow color='#FFFFFF' size={40} />
+                        <FaTemperatureLow size={40} />
                         <span>Média últimas 24h</span>
                     </div>
                     <span className="value">{sensorDados ? sensorDados.mediaTemp : "--"}<TbTemperatureCelsius /></span>
@@ -23,7 +23,7 @@ export default function Boxes({ sensorDados }) {
 
                 <div className="box">
                     <div className="info">
-                        <LuDroplet color='#FFFFFF' size={40} /> 
+                        <LuDroplet  size={40} /> 
                         <span>Média últimas 24h</span>
                     </div>
                     <span className="value">{sensorDados ? sensorDados.mediaHum : "--"}<AiOutlinePercentage size={30} /></span>
@@ -32,7 +32,7 @@ export default function Boxes({ sensorDados }) {
 
                 <div className="box">
                     <div className="info">
-                        <IoTimer color='#FFFFFF' size={40} />
+                        <IoTimer size={40} />
                         <span>UPTIME</span>
                     </div>
                     <span className="value">99<AiOutlinePercentage size={30} /></span>
@@ -40,7 +40,7 @@ export default function Boxes({ sensorDados }) {
 
                 <div className="box">
                     <div className="info">
-                        <RiAlarmWarningLine color='#FFFFFF' size={40} />
+                        <RiAlarmWarningLine size={40} />
                         <span>Situação</span>
                     </div>
                     <div className="status">Normal</div>

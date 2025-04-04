@@ -19,8 +19,8 @@ export default function Temperature({ dadosDevice }) {
         toolbar: false,
         height: 250,
         type: "line", // ou "area"
-        background: "#111633",
-        foreColor: "#FFFFFF",
+
+        foreColor: "#38373B",
       },
       dataLabels: {
         enabled: false,
@@ -35,7 +35,7 @@ export default function Temperature({ dadosDevice }) {
       tooltip: {
         // Se for somente categoria, não precisa formatar data
       },
-      colors: ["#FEC400"],
+      colors: ["#1483CD"],
     },
   });
 

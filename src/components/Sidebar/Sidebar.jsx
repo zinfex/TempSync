@@ -83,15 +83,9 @@ export default function DesktopSidebar({ page }) {
         <FaUserCircle size={30} />
         {tooltipVisible && (
           <div className="avatar-tooltip">
-            <Link to='/devices'>
-              <button>Modo Cliente</button>
-            </Link>
-            <Link to='/devices/admin'>
-              <button>Modo Admin</button>
-            </Link>
-            <Link to='/logs'>
-              <button>Logs</button>
-            </Link>
+              <button>Tema escuro</button>
+              <button>Tema Claro</button>
+
           </div>
         )}
       </div>

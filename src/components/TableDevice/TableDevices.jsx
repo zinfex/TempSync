@@ -5,9 +5,7 @@ import { FaSearch } from "react-icons/fa";
 import { TbTemperatureCelsius } from "react-icons/tb";
 import { RiTempColdLine } from "react-icons/ri";
 import { FaLocationCrosshairs } from "react-icons/fa6";
-import Api from "../../config/Api"; // Importa a API (Axios)
 import { useSensor } from "../../context/SensorContext";
-import { RiEditBoxFill } from "react-icons/ri";
 
 // Ícones de Wi-Fi
 import {
@@ -59,17 +57,6 @@ export default function TableDevices() {
     setShowAlert(false);
   };
   
-  // useEffect(() => {
-  //   async function fetchDevices() {
-  //     try {
-  //       const response = await Api.get("/sensores");
-  //         setDevices(response.data)
-  //     } catch (error) {
-  //       console.error("Erro ao buscar os dados da API:", error);
-  //     }
-  //   }
-  //   fetchDevices();
-  // }, [setUltimoDados]);
 
   useEffect(() => {
     fetch('/devices.json')
@@ -80,19 +67,6 @@ export default function TableDevices() {
 
   const openModal = () => {setIsModalOpen(true); setStep(0); setNewDevice({sid: "", rssi: "", local: ""})};
   const closeModal = () => setIsModalOpen(false);
-  const handleNextStep = () => setStep((prevStep) => prevStep + 1);
-
-  //Por enquanto não está havendo aprovação de criação de cards
-  // const handleAddDevice = () => {
-  //   const newSensor = {
-  //     ...newDevice,
-  //     temperatura: (Math.random() * -30).toFixed(1), // Simula temperatura
-  //     chipid: `sensor-${devices.length + 1}`,
-  //   };
-
-  //   setDevices([...devices, newSensor]);
-  //   closeModal();
-  // };
 
   const getWifiIcon = (rssi) => {
     if (rssi >= -30) return <MdSignalWifiStatusbar4Bar size={30} />;
@@ -224,7 +198,7 @@ export default function TableDevices() {
               )}
 
               <div className="addcard" onClick={openModal}>
-                <IoAddCircleOutline color="rgba(255, 255, 255, 0.436)" size={40} />
+                <IoAddCircleOutline color="rgb(163, 162, 162)" size={40} />
               </div>
             </div>
         </div>

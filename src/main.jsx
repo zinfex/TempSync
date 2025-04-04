@@ -16,21 +16,16 @@ export function useAuth() {
 }
 
 function Root() {
-  const [logAdmin, setLogAdmin] = useState(false);
-
   const router = createBrowserRouter([
     { path: '/', element: <App /> },
-    { path: '/devices/admin', element: <Devices log={true}/> },
-    { path: '/devices', element: <Devices log={false}/> },
-    { path: '/dashboard/admin', element: <Dashboard log={true}/> },
-    { path: '/dashboard', element: <Dashboard log={false}/> },
+    { path: '/devices', element: <Devices /> },
     { path: '/dashboard/:chipid', element: <Dashboard />},
-    { path: '/reports', element: <Reports />},
-    { path: '/logs', element: <LogItem />}
+    // { path: '/dashboard', element: <Dashboard/> },
+    // { path: '/reports', element: <Reports />},
   ]);
 
   return (
-    <AuthContext.Provider value={{ logAdmin, setLogAdmin }}>
+    <AuthContext.Provider>
       <SensorProvider> 
         <RouterProvider router={router} />
       </SensorProvider>
