@@ -1,4 +1,4 @@
-# TempSync
+# ThermoBoard
 
 Este projeto consiste em um sistema de monitoramento de temperatura (e umidade) construído em **React**, que utiliza um **arquivo JSON** para simular dados de diversos dispositivos (sensores). Cada dispositivo fornece leituras de temperatura e umidade ao longo do tempo, que são exibidas em gráficos e tabelas. Ele permite que o usuário visualize facilmente dados como:
 
